@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Manrope';
+    margin: 0px;
+    /* font-size: 13px; */
+}
+
+body{
+    background-color: #ecf2f8;
+}
+
+.container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 335px;
+    box-shadow: 5px 6px 18px -7px rgba(0,0,0,0.46);
+    max-width: 414px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+
+.images {
+    position: relative;
+    background-image: url(images/drawers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 220px;
+    width: 100%;
+    /* background-color: aqua; */
+    /* padding-bottom: 20px; */
+}
+
+.texts {
+    padding: 30px;
+}
+
+.firstblock, .name {
+    font-weight: 700;
+    color: #48556a;
+    /* font-size: 17px; */
+}
+
+.secondblock, .date {
+    color: #9eafc2;
+    font-weight: 400;
+}
+
