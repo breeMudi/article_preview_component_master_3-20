@@ -1,7 +1,8 @@
 * {
     box-sizing: border-box;
-    font-family: 'Manrope';
+    font-family: 'Manrope', 'san serif';
     margin: 0px;
+    padding: 0px;
     font-size: 13px;
 }
 
@@ -14,31 +15,30 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 335px;
+    width: 85%;
     box-shadow: 5px 6px 18px -7px rgba(0,0,0,0.46);
-    /* max-width: 414px; */
-    min-width: fit-content;
     background-color: #ffffff;
     border-radius: 10px;
-    display: flex;
-    flex-direction: column; 
 }
 
 
 .images {
-    position: relative;
+    min-height: 200px;
+    flex-basis: 40%;
     background-image: url(images/drawers.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    border: 2px solid red;
-    /* height: 220px;
-    width: 100%; */
-    /* background-color: aqua; */
-    /* padding-bottom: 20px; */
+
+}
+
+.images img{
+    width: 100%;
+    height: auto;
 }
 
 .texts {
-    padding: 20px 30px 30px 30px;
+    padding: 10px 30px 30px 30px;
+    flex-basis: 60%;
 }
 .firstblock, .secondblock, .profileblock{
     padding-top: 20px;
@@ -58,6 +58,7 @@ body{
 .profileblock {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .profilepic{
@@ -83,27 +84,22 @@ body{
 }
 
 @media (min-width: 414px) {
-    .profileblock, .secondblock  {
-        color: red;
-    }
     
     .container {
-        flex-direction: row;
-        min-width: 50%;
+        display: flex;
+        /* flex-direction: row; */
+        width:50%;
     }
 
     .images {
-        flex-basis: 40%;
+
+        width: max-content;
+        height: auto;
+
     } 
 
     .texts {
         flex-basis: 60%;
-    }
-
-    .images {
-        border: 2px solid red;
-        /* width: 335px; */
-        /* height: 335px; */
     }
 
     .firstblock {
