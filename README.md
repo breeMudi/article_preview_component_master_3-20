@@ -23,8 +23,8 @@ This is a solution to the [article_preview_component_master on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Link to my solution git repo](https://github.com/breeMudi/profile-card-component_2_20/tree/main)
-- Live Site URL: [Link to project view on git-hub live server](https://breemudi.github.io/profile-card-component_2_20/)
+- Solution URL: [Link to my solution git repo](https://github.com/breeMudi/article_preview_component_master_3-20/tree/main)
+- Live Site URL: [Link to project view on git-hub live server](https://breemudi.github.io/article_preview_component_master_3-20/)
 
 ## My process
 
