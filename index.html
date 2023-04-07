@@ -13,6 +13,11 @@
     />
     <link rel="stylesheet" href="style.css" />
 
+    <!-- my font awesome kit first use -->
+    <script
+      src="https://kit.fontawesome.com/9399f11620.js"
+      crossorigin="anonymous"
+    ></script>
     <link
       rel="icon"
       type="image/png"
@@ -31,25 +36,55 @@
   <body>
     <div class="container">
       <div class="images"></div>
-      <div class="texts">
-        <h3 class="firstblock">
-          Shift the overall look and feel by adding these wonderful touches to
-          furniture in your home
-        </h3>
-        <p class="secondblock">
-          Ever been in a room and felt like something was missing? Perhaps it
-          felt slightly bare and uninviting. I’ve got some simple tips to help
-          you make any room feel complete.
-        </p>
-        <div class="profileblock">
-          <div>
-            <img class="profilepic" src="images/avatar-michelle.jpg" alt="" />
+      <div class="rightside">
+        <div class="texts">
+          <h3 class="firstblock">
+            Shift the overall look and feel by adding these wonderful touches to
+            furniture in your home
+          </h3>
+          <p class="secondblock">
+            Ever been in a room and felt like something was missing? Perhaps it
+            felt slightly bare and uninviting. I’ve got some simple tips to help
+            you make any room feel complete.
+          </p>
+        </div>
+        <div class="wrapper">
+          <!-- default -->
+          <div class="profileblock">
+            <div>
+              <img class="profilepic" src="images/avatar-michelle.jpg" alt="" />
+            </div>
+            <div>
+              <h4 class="name">Michelle Appleton</h4>
+              <p class="date">28 Jun 2020</p>
+            </div>
           </div>
-          <div>
-            <h4 class="name">Michelle Appleton</h4>
-            <p class="date">28 Jun 2020</p>
+          <!-- active state -->
+
+          <div class="activeprofileblock">
+            <h3>S H A R E</h3>
+            <span>
+              <a href="https://facebook.com"
+                ><img src="images/icon-facebook.svg" alt=""
+              /></a>
+            </span>
+
+            <span>
+              <a href="https://twitter.com"
+                ><img src="images/icon-twitter.svg" alt=""
+              /></a>
+            </span>
+            <span>
+              <a href="https://pinterest.com">
+                <img src="images/icon-pinterest.svg" alt=""
+              /></a>
+            </span>
           </div>
-          <div class="share"><img src="images/icon-share.svg" alt="" /></div>
+
+          <div class="share">
+            <!-- <img src="images/icon-share.svg" alt="" /> -->
+            <span><i class="fa-solid fa-share"></i></span>
+          </div>
         </div>
       </div>
     </div>
