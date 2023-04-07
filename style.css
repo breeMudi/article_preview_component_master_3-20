@@ -144,7 +144,7 @@ body{
         position: absolute;
         padding: 10px 20px;
         /* top: 140px; */
-        top: 55%;
+        bottom: 30%;
         right: -50px;
         background-color: #48556a;
         box-shadow: 5px 6px 18px -7px rgba(0,0,0,0.46);
