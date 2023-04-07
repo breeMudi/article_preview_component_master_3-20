@@ -19,7 +19,7 @@ body{
     box-shadow: 5px 6px 18px -7px rgba(0,0,0,0.46);
     background-color: #ffffff;
     border-radius: 10px;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 
@@ -28,7 +28,6 @@ body{
     background-image: url(images/drawers.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 .rightside {
@@ -42,15 +41,14 @@ body{
 
 .texts {
     padding: 10px 30px 10px 30px;
-    /* flex-basis: 30%; */
 }
 .firstblock, .secondblock, .wrapper{
     padding-top: 20px;
 }
 
 .wrapper {
-    padding: 10px 30px 10px 30px;
-    background-color:#48556a;
+    padding: 15px 30px 15px 30px;
+    background-color: #ffffff;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -72,19 +70,16 @@ body{
     display: inline-flex;
     align-items: center;
     gap: 10px;
-    position: left;   
-    /* display:none; */
+    position: left;
+    min-height: 52px;
 }
 
 .activeprofileblock {
-    display: inline-flex;
+    display: none;
     align-items: center;
     gap: 20px;
-    /* position: left; */
     color: #9eafc2;
-    /* background-color: #48556a; */
-    min-height: 50px;
-    /* display: none; */
+    min-height: 52px;
 }
 
 .profilepic{
@@ -104,19 +99,28 @@ body{
     height: 30px;
     background-color: #ecf2f8;
     text-align: center;
-    opacity: 0.7;
+    /* display: inline-flex; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.fa-solid{
+#shareicon{
+    /* color: blue; */
+
+    width: 15px;
+    height: 15px;
     font-size: 16px;
-    line-height: 28px;
+    padding-bottom: 2px;
     }
 
 @media (min-width: 414px) {
     
     .container {
         display: flex;
-        width:50%;        
+        min-width: 412px;
+        width:50%;      
+        overflow:visible;  
     }
     .images {
         background-size: cover;
@@ -127,22 +131,14 @@ body{
     } 
     .wrapper {
         background-color: #ffffff;
-        /* display: flex;
-        flex-direction: column; */
         flex-basis: 60%;
+        border-radius: 0px 0px 10px 0px;
     }
-
-    /* .texts {
-        flex-basis: 60%;
-    } */
 
     .firstblock {
         font-size: 1.6rem;
     }
 
-    .share {
-        position: right;
-    }
     .activeprofileblock {
         border-radius: 10px;
         position: absolute;
@@ -164,5 +160,9 @@ body{
         left: 50%;
         transform: rotate(45deg);
         box-shadow: 5px 6px 18px -7px rgba(0,0,0,0.46);
+    }
+
+    .images{
+        border-radius: 10px 0px 0px 10px;
     }
 }
