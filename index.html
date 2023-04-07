@@ -64,30 +64,35 @@
           <div class="activeprofileblock">
             <h3>S H A R E</h3>
             <span>
-              <a href="https://facebook.com"
+              <a target="_blank" href="https://facebook.com"
                 ><img src="images/icon-facebook.svg" alt=""
               /></a>
             </span>
 
             <span>
-              <a href="https://twitter.com"
+              <a target="_blank" href="https://twitter.com/Bridgetmudiaga"
                 ><img src="images/icon-twitter.svg" alt=""
               /></a>
             </span>
             <span>
-              <a href="https://pinterest.com">
+              <a target="_blank" href="https://pinterest.com">
                 <img src="images/icon-pinterest.svg" alt=""
               /></a>
             </span>
           </div>
 
-          <div class="share">
+          <div onclick="toggleDisplay()" class="share">
             <!-- <img src="images/icon-share.svg" alt="" /> -->
-            <span><i class="fa-solid fa-share"></i></span>
+            <span
+              ><img id="shareicon" src="images/icon-share.svg" alt="" />
+            </span>
+            <!-- <i class="fa-solid fa-share"></i> -->
           </div>
         </div>
       </div>
     </div>
+
+    <script src="main.js"></script>
 
     <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
